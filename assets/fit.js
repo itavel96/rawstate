@@ -1,0 +1,1 @@
+(()=>{const app=document.getElementById('rawstate-v4'),main=app?.querySelector('.rv-main');if(!app||!main)return;const fit=()=>{if(main.clientHeight>0)app.style.setProperty('--rawstate-main-height',main.clientHeight+'px');};fit();new ResizeObserver(fit).observe(main);})();
