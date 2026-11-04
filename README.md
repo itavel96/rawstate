@@ -1,23 +1,15 @@
 # RawState
 
-Anteprima del sito RawState, versione grafica 96 del 3 novembre 2026.
+[Apri il sito — anteprima V97](https://rawstate-studio.itavel96.chatgpt.site/)
 
-Sito: https://itavel96.github.io/rawstate/
+RawState è un progetto per la community italiana hard dance: festival europei, lineup, news e radio.
 
-Include palco 3D, RawState Radio, Virtual Festival, mappa e calendario degli eventi, News, Community e concept Merch.
+## Stato
 
-È un’anteprima per revisionare grafica e navigazione: eventi e post sono snapshot; la radio non contiene ancora un archivio pubblico e le funzioni account e multiplayer non hanno un server attivo. Informative e contatti sono ancora da completare.
+La versione V97 è pubblicata all’indirizzo di anteprima qui sopra. Il trasferimento completo dei sorgenti in questo repository è ancora in corso: i file attualmente presenti sono un caricamento parziale precedente e non costituiscono una distribuzione avviabile. GitHub Pages non è attivo.
 
-## File
+Novità V97: palco fermo con luci interattive; filtri completi per artista/genere/paese/mese; catalogo di64eventi con caricamento dati separato;19news e lettore di caroselli; Virtual Festival con schermata d’attesa.
 
-- index.html: pagina iniziale e importmap.
-- assets/: JavaScript, stili, immagini e font.
-- vendor/three/: moduli Three.js e licenza.
-- data/: snapshot del feed Instagram.
-- links/: pagina separata dei collegamenti RawState.
+La radio pubblica è predisposta per Mixcloud: il mix di prova locale non è incluso. Aggiornamenti automatici Instagram/eventi non ancora attivi. Le news sono una copia verificata al4novembre2026; gli eventi conservano la data della loro verifica, senza promessa di copertura completa o tempo reale.
 
-Pubblicazione GitHub Pages dal branch main, cartella radice. Gli URL delle risorse usano il prefisso /rawstate/. Dopo modifiche ai file JavaScript occorre aggiornare i rispettivi hash SRI nell’HTML; dopo modifiche agli script inline va aggiornato anche l’hash CSP.
-
-Per un’anteprima locale, servire la cartella che contiene rawstate con un server HTTP e aprire /rawstate/; l’apertura diretta di questi file HTML non equivale all’anteprima offline monolitica usata durante lo sviluppo.
-
-Logo e identità RawState appartengono al progetto. Le librerie e i materiali di terze parti mantengono le rispettive licenze e diritti.
+Il dominio rawstate.it e il relativo hosting Aruba devono ancora ricevere il pacchetto definitivo. Le informative richiedono il completamento del titolare e del contatto privacy.
